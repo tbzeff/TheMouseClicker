@@ -1,3 +1,5 @@
+package themouseclicker;
+
 import java.awt.*;
 import javax.swing.*;
 

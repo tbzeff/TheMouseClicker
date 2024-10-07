@@ -1,3 +1,4 @@
+package themouseclicker;
 
 import java.awt.AWTException;
 import java.awt.Robot;

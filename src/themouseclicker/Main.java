@@ -1,3 +1,4 @@
+package themouseclicker;
 
 import java.util.Scanner;
 import java.awt.Point;
@@ -24,7 +25,7 @@ public class Main {
 	}
 
 	private static void clickLocPrompt() {
-		System.out.print("Drag the window so the center is in the location you'd like to click.");
+		System.out.print("Drag the window so the center is in the location you'd like to click. Then press 'Enter'");
 		clickFrame.setVisible(true);
 		String nul = in.nextLine(); 
 		in.nextLine();
@@ -119,11 +120,12 @@ public class Main {
 				break;
 			case 3:
 				programControl = -1;
+				System.out.println("Exiting program...");
+                System.exit(0); 
 				break;
 			}
 			
 		}
 		
 	} 
-
 }
