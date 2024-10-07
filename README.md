@@ -1,0 +1,2 @@
+# TheMouseClicker
+ An autoclicking program.
