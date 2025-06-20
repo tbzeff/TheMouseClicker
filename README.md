@@ -20,3 +20,9 @@ javac -d bin src/themouseclicker/*.java
 ## Running
 To execute the program, use:
 java -cp bin themouseclicker.Main
+
+## 👤 Author
+
+Taylor Bleizeffer
+- **https://www.taylorbleizeffer.com**
+- **https://github.com/tbzeff**
