@@ -20,9 +20,19 @@ public class Clicker {
 	
 	public void click()
 	{
+		leftClick();
+	}
+
+	public void leftClick() {
 		robot.delay(3);
 		robot.mousePress(MouseEvent.BUTTON1_DOWN_MASK);
 		robot.mouseRelease(MouseEvent.BUTTON1_DOWN_MASK);
+	}
+
+	public void rightClick() {
+		robot.delay(3);
+		robot.mousePress(MouseEvent.BUTTON3_DOWN_MASK);
+		robot.mouseRelease(MouseEvent.BUTTON3_DOWN_MASK);
 	}
 	
 	public void moveRobot(int x, int y) {
